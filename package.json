@@ -2,6 +2,13 @@
 	"name": "add2gitignore",
 	"displayName": "Add 2 Gitignore",
 	"description": "Add your file or folder to the .gitignore file from your workspace",
+	"author": {
+		"name": "ShiroSFX",
+		"url": "https://github.com/KevinDurand974"
+	},
+	"repository": {
+		"url": "https://github.com/KevinDurand974/vscode-extension-add2gitignore/tree/main"
+	},
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.84.0"
@@ -37,7 +44,8 @@
 		"pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js",
-		"vscode:package": "pnpm vsce package --no-dependencies"
+		"vscode:package": "pnpm vsce package --no-dependencies",
+		"vscode:publish": "pnpm vsce publish --no-dependencies"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.84.0",
