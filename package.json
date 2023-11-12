@@ -44,7 +44,8 @@
 		"pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js",
-		"vscode:package": "pnpm vsce package --no-dependencies"
+		"vscode:package": "pnpm vsce package --no-dependencies",
+		"vscode:publish": "pnpm vsce publish --no-dependencies"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.84.0",
