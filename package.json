@@ -2,6 +2,7 @@
 	"name": "add2gitignore",
 	"displayName": "Add 2 Gitignore",
 	"description": "Add your file or folder to the .gitignore file from your workspace",
+	"publisher": "ShiroSFX",
 	"author": {
 		"name": "ShiroSFX",
 		"url": "https://github.com/KevinDurand974"
